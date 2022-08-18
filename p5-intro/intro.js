@@ -54,6 +54,7 @@ function draw() {
 	image(playerImage, playerX, 100, 100, 100)
 }
 
+// this function is called whenever a key is pressed
 function keyPressed() {
 	// this variable is provided by P5
 	console.log(keyCode)
@@ -61,5 +62,4 @@ function keyPressed() {
 		// move the player to the right
 		playerX += 10
 	}
-
 }
